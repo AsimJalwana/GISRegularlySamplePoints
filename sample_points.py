@@ -19,7 +19,7 @@ def generate_points(polygon, distance):
     return points
 
 # Load the shapefile (EPSG:4283)
-shapefile_path = '/Users/jalwana/GIS/WA_ShapeFile/WA_Boundary.shp'  # Replace with your actual file path
+shapefile_path = './data/WA_ShapeFile/WA_Boundary.shp'  # Replace with your actual file path
 gdf = gpd.read_file(shapefile_path)
 
 # Reproject the polygon to a projected CRS (e.g., EPSG:3857 or suitable UTM zone for your area)
