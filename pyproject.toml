@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10"
 geopandas = "^1.0.1"
 loguru = "^0.7.2"
+pygeos = "^0.14"
 
 
 [build-system]
